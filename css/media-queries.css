@@ -1,0 +1,207 @@
+
+@media screen and (max-width:500px) {
+
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* header */
+
+    header {
+        background-position: center;
+        /* border: 1px solid red; */
+    }
+
+    .menu-nav {
+        grid-column: 1/9;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+
+    }
+
+    .menu-nav a {
+        padding: 0;
+    }
+
+    .menu-nav .contactos-border {
+        border: none;
+    }
+
+    /* header-textos */
+    .texto-header {
+        /* border: 2px solid red; */
+        grid-column: 3/7;
+    }
+
+    .texto-header h1 {
+        font-size: 65px;
+
+    }
+
+    .texto-header h2 {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .texto-header .boton-conocer {
+        margin-top: 130px;
+    }
+
+    /* nosotros */
+    .subtitulo {
+        font-size: 25px;
+    }
+
+    .contenido-sobre-nosotros {
+        flex-direction: column;
+    }
+
+    .contenido-sobre-nosotros img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .sobre-nosotros p {
+        width: 80%;
+    }
+
+    /* fundador */
+    .fundador .juan img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .juan .frase {
+        text-align: justify;
+    }
+}
+
+/* proyectos */
+
+.proyectos-gallery {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+}
+
+
+
+.proyecto-1 .img-container {
+    width: 100%;
+    
+}
+
+.proyecto-2 .img-container-2 {
+    width: 100%;
+    
+}
+
+
+.titulo-responsive {
+    margin-top: 20px;
+    color: #542e71;
+    font-size: 23px;
+
+}
+
+.proyecto-2 {
+    margin-top: 40px;
+}
+
+.proyecto-1{
+    /* width: 100%; */
+}
+
+/* footer */
+.footer-texto {
+    grid-column: 3/7;
+}
+
+.redes-container {
+    grid-column: 1/9;
+
+}
+
+
+/* tabletas con maxima resolucion de 1120px */
+@media screen and (max-width:1120px) {
+    .menu-nav {
+        grid-column: 1/9;
+
+
+    }
+
+    /* proyectos */
+    /* .proyecto-1 .img-container {
+        width: 400px;
+        height: 220px;
+        
+    } */
+    /* .proyecto-2 .img-container-2 {
+        width: 400px;
+        height: 220px;
+    } */
+}
+
+
+
+
+/* dispositivos con resolucion mayor a 1120 */
+@media screen and (min-width:1121px) {
+
+    /* header */
+    .menu-nav {
+        /* border: 1px solid red; */
+        grid-column: 5/9;
+        
+    }
+
+    /* proyectos */
+    /* .proyecto-1 .img-container {
+        width: 400px;
+        height: 220px;
+        
+        
+    } */
+    /* .proyecto-2 .img-container-2 {
+        width: 400px;
+        height: 220px;
+    } */
+
+    .titulo-responsive{
+        display: none;
+    }
+    /* footer */
+    .redes-container{
+        grid-column: 4/6;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
